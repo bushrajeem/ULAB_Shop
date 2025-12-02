@@ -1,0 +1,70 @@
+/* signup.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 350px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #f48535;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e55a00;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+p a {
+  text-decoration: none;
+  color: #f48535;
+  font-weight: bold;
+}
+
+p a:hover {
+  color: #e55a00;
+}
